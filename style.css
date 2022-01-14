@@ -1,0 +1,104 @@
+body{
+    background-color: rgba(128, 128, 128, 0.041);
+}
+
+nav{
+    background-color: gray;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+span{
+    display: flex;
+        
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav  li{
+    list-style: none;
+    margin-left: 10px;
+}
+
+nav  li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+nav  li a:hover{
+    background-color: rgba(222, 245, 245, 0.452);
+    color: black;
+    text-decoration: underline;
+}
+
+
+.main-continer{
+    
+    height: 560px;
+    width: 100%;
+    display: flex;
+    justify-content:right;
+    align-items:flex-start;
+    /* border: 1px solid black; */
+}
+
+.login-continer{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    width: 500px;
+    background-color: gray;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px gray;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.login-form input{
+    margin-bottom: 10px;
+    height: 20px;
+    width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.3em;
+}
+
+button{
+    height: 45px;
+    border-radius: 9px;
+    padding: 5px;
+    background-color: blue;
+    color: whitesmoke;
+    font-size: 1.5em;
+} 
+
+a{
+    color: rgba(117, 14, 14, 0.897);
+    text-decoration: none;
+}
+
+h3:hover{
+    text-decoration: underline;
+}
+hr{
+    color: black;
+}
+
+h2{
+    color: green;
+    font-size: 1.3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#creat-a-account:hover{
+    text-decoration: underline;
+}
